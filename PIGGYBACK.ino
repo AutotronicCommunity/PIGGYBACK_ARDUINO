@@ -36,5 +36,4 @@ void loop() {
   delayMicroseconds(newHighTime);
   digitalWrite(outputPin, LOW);
   delayMicroseconds(newLowTime);
-  delay(10);
 }
